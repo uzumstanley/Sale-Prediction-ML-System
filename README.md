@@ -16,7 +16,7 @@ A fully interactive Machine Learning web application that predicts **future prod
 ---
 
 ## 📖 Project Overview  
-Accurate sales forecasting is critical for inventory planning, budgeting, and marketing strategy. This project — using the `sales_prediction_task2.csv` dataset — demonstrates how to:
+Accurate sales forecasting is critical for inventory planning, budgeting, and marketing strategy. This project using the `sales_prediction_task2.csv` dataset demonstrates how to:
 
 1. **Load** a pre‑trained XGBoost model and its associated `ColumnTransformer`.  
 2. **Capture** user inputs (date, product category, price, promotion, discounts, etc.) through a clean Streamlit UI.  
@@ -27,10 +27,10 @@ The underlying model achieved the following performance on the hold‑out set:
 
 | Metric | Value |
 |--------|-------|
-| **MAE** | 263.86 |
-| **MSE** | 141 005.23 |
-| **RMSE** | 375.51 |
-| **R²** | **0.7934** |
+| **MAE** | **279.28** |
+| **MSE** | **128803.21** |
+| **RMSE** | **358.89** |
+| **R²** | **0.8113** |
 
 ---
 
